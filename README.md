@@ -27,4 +27,8 @@ From here, we additionally made a "Composite Tackle Ranking" as an average of th
 We implemented two primary forms of visualizations for this project. All of the tables seen we developed via the gt/gtExtras package in R, with data being supplemented in from the nflfastR libraries. The field visualizations were made using the ggplot2 library, as well as a supplementary function titled "gg_field", created and publically shared by statistician [Marschall Furman] (https://github.com/mlfurman3/gg_field).
 
 Script Order for running our code:
-  createMetricModels.R %>% createMetricLeaderboards.R %>% createTableVisualizations.R %>% gg_field.R %>% createFieldVisualizations.R
+1. createMetricModels.R
+2. createMetricLeaderboards.R
+3. createTableVisualizations.R
+4. gg_field.R
+5. createFieldVisualizations.R
