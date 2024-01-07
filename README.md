@@ -1,6 +1,6 @@
 # Houston, We Have a (Tackling) Problem: An Analysis of Potential Acquisitions for the Houston Texans
-## Appendix and Code for our 2024 NFL Big Data Bowl Submission
-### *Nick Fullerton, Grant Hizer, adn CJ Olson*
+### Appendix and Code for our 2024 NFL Big Data Bowl Submission
+### *Nick Fullerton, Grant Hizer, ann CJ Olson*
 
 For our Big Data Bowl submission we pursued the coaching presentation track, identifying poor and sound tacklers across the NFL using a series of expected tackling metrics that we developed. After identifying the Texans as one of the poorest tackling teams in the NFL during the 2022 NFL season, we evalated areas they may improve and players they could target via trade/free agency to help increase the team's tackling productivity as a whole.
 
