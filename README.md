@@ -22,7 +22,7 @@ After creating our models, our goal then shifted to making the results as unders
 * MTPOE ~ Missed Tackle % Over Expected
 * MTOE ~ Missed Tackles Over Expected
 
-From here, we additionally made a "Composite Tackle Ranking" as an average of the 4 ranks above. The master list that was exported back into R can be found [here](https://docs.google.com/spreadsheets/d/1C7r6EZzI5RnjAnbmmlIOpANZLml9QrbyWd0Dw7k2yZQ/edit?usp=sharing), with the file already in the "projectData" folder. Finally, evaluated the contract structure of all qualified players to help us hone in on "gettable" players, who we then evaluated to see if they would be a good fit according to our metrics.
+From here, we additionally made a "Composite Tackle Ranking" as an average of the 4 ranks above. The master list that was exported back into R can be found [here](https://docs.google.com/spreadsheets/d/1C7r6EZzI5RnjAnbmmlIOpANZLml9QrbyWd0Dw7k2yZQ/edit?usp=sharing), with the file already in the "projectData" folder. Finally, we evaluated the contract structure of all qualified players to help us hone in on "gettable" players, who we then evaluated to see if they would be a good fit according to our metrics.
 
 ## Visualizations
 We implemented two primary forms of visualizations for this project. All of the tables seen we developed via the gt/gtExtras package in R, with data being supplemented in from the nflfastR libraries. The field visualizations were made using the ggplot2 library, as well as a supplementary function titled "gg_field", created and publically shared by statistician [Marschall Fulman](https://github.com/mlfurman3/gg_field).
