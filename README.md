@@ -10,6 +10,7 @@ To prepare our data we conducted explorartory data analysis and feature testing 
 * The distance between the ball carrier and defender
 * The average tackle rate against the ball carrier
 * Whether the play is a pass or rush
+
 After trimming down the tracking data to these features, it was time to create our model.
 
 For our model we used a machine learning technique called Gradient Boosting, which focuses on the results of weak learners/poor results within the modeling process and takes a series of steps to "fix" those week learners, finally averaging all models to ideally create a more accurate model. Specifically we chose gradient boosted trees using the "lightgbm" engine within R, as we found that it has been shown to increase speed and memory-efficiency during the modeling process, as compared to xgBoost. Additionally, we implemented cross-validation across our dataset to generate less biased results. Finally, we ran our model to achieve binary logisitic probability results so that we can achieve an accurate "expected tackle percentage" for every frame.
@@ -20,6 +21,7 @@ After creating our models, our goal then shifted to making the results as unders
 * TOE ~ Tackles Over Expected
 * MTPOE ~ Missed Tackle % Over Expected
 * MTOE ~ Missed Tackles Over Expected
+
 From here, we additionally made a "Composite Tackle Ranking" as an average of the 4 ranks above. The master list that was exported back into R can be found [here](https://docs.google.com/spreadsheets/d/1C7r6EZzI5RnjAnbmmlIOpANZLml9QrbyWd0Dw7k2yZQ/edit?usp=sharing), with the file already in the "projectData" folder. Finally, evaluated the contract structure of all qualified players to help us hone in on "gettable" players, who we then evaluated to see if they would be a good fit according to our metrics.
 
 ## Visualizations
